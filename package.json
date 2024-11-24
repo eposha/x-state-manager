@@ -1,0 +1,42 @@
+{
+  "name": "x-state-manager",
+  "version": "1.0.0",
+  "description": "A lightweight state manager built on top of SWR for efficient state management with caching, optimistic updates, and modular architecture. It allows easy global and local state management, automatic data re-fetching on focus, and supports TypeScript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/eposha/x-state-manager",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "publish:local": "npm run build && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-state",
+    "swr-state",
+    "management-swr",
+    "management-state",
+    "swr-react",
+    "state",
+    "management",
+    "react",
+    "swr",
+    "state-manager"
+  ],
+  "author": "Andrii Iepanieshnikov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "swr": "^2.2.5"
+  }
+}
