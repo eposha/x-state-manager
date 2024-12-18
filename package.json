@@ -1,6 +1,6 @@
 {
   "name": "x-state-manager",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A lightweight state manager built on top of SWR for efficient state management with caching, optimistic updates, and modular architecture. It allows easy global and local state management, automatic data re-fetching on focus, and supports TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
